@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.todo-input {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+.todo-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0069d9;
+}
+
+.delete-button {
+    background-color: red;
+}
+
+.edit-button {
+    background-color: yellow;
+}
