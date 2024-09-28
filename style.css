@@ -1,6 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
+    padding: 0 10px;
+    margin: 0;
 }
 
 h1 {
@@ -9,6 +11,14 @@ h1 {
 
 .todo-input {
     margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
 }
 
 ul {
@@ -26,19 +36,17 @@ li {
 
 .todo-buttons {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 button {
-    padding: 5px 10px;
+    padding: 10px;
     border: none;
-    background-color: #007bff;
+    background-color: green;
     color: white;
     cursor: pointer;
-}
-
-button:hover {
-    background-color: #0069d9;
+    width: 48%;
+    margin-top: 5px;
 }
 
 .delete-button {
@@ -46,5 +54,32 @@ button:hover {
 }
 
 .edit-button {
-    background-color: yellow;
+    background-color: blue;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    body {
+        padding: 0 5px;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        max-width: none;
+    }
+
+    li {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .todo-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    button {
+        width: 100%;
+        margin: 5px 0;
+    }
 }
