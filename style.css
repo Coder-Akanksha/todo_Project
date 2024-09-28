@@ -82,4 +82,19 @@ button {
         width: 100%;
         margin: 5px 0;
     }
+
+}
+.heading{
+   font-family:"Times New Roman",'Times New Roman', Times, serif;
+   font-size: 30px;
+   color: #333;;
+   margin-bottom: 20px;
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: 700;
+   letter-spacing: 1px;
+   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+   padding: 10px;
+   background-color: #9abcef;
+   border-radius: 5px;
 }
