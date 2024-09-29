@@ -33,12 +33,13 @@ li {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #f2f2f2;   
 }
 
 .todo-buttons {
-    display: flex;
-    justify-content: space-between;
+    display:contents;
+    padding-left: 20px;
+    /* justify-content: space-between; */   
 }
 
 button {
@@ -53,12 +54,15 @@ button {
 
 .delete-button {
     background-color: red;
+    border-radius: 6px;
+    width: 20%;
 }
 
 .edit-button {
     background-color: blue;
+    border-radius: 6px;
+    width: 20%;
 }
-
 /* Mobile responsiveness */
 @media (max-width: 768px) {
     body {
@@ -84,7 +88,6 @@ button {
         width: 100%;
         margin: 5px 0;
     }
-
 }
 .heading{
    font-family:"Times New Roman",'Times New Roman', Times, serif;
@@ -99,4 +102,12 @@ button {
    padding: 10px;
    background-color: #9abcef;
    border-radius: 5px;
+    
+}
+.todo-list{
+    border: 5px solid;
+    border-bottom: 0px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border-color: #5d73d3;
 }
