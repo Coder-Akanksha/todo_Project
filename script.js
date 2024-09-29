@@ -40,12 +40,14 @@ function createTodoElement(todo) {
     const li = document.createElement("li");
     li.innerHTML = `
         <h3>${todo.title}</h3>
-        <p>${todo.description}</p>
-        <p>Created at: ${todo.createdAt.toLocaleString()}</p>
         <div class="todo-buttons">
             <button class="edit-button">Edit</button>
             <button class="delete-button">Delete</button>
         </div>
+        <hr>
+        <p>${todo.description}</p>
+        <p>Created at: ${todo.createdAt.toLocaleString()}</p>
+        
     `;
 
     todoList.appendChild(li);

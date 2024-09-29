@@ -3,6 +3,7 @@ body {
     text-align: center;
     padding: 0 10px;
     margin: 0;
+    
 }
 
 h1 {
@@ -11,6 +12,8 @@ h1 {
 
 .todo-input {
     margin-bottom: 20px;
+
+    
 }
 
 input[type="text"] {
@@ -19,6 +22,8 @@ input[type="text"] {
     padding: 10px;
     margin: 5px 0;
     box-sizing: border-box;
+   
+    
 }
 
 ul {
@@ -32,11 +37,14 @@ li {
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #f2f2f2;
+    
 }
 
 .todo-buttons {
-    display: flex;
-    justify-content: space-between;
+    display:contents;
+    padding-left: 20px;
+    /* justify-content: space-between; */
+    
 }
 
 button {
@@ -47,25 +55,35 @@ button {
     cursor: pointer;
     width: 48%;
     margin-top: 5px;
+    
 }
 
 .delete-button {
     background-color: red;
+    border-radius: 6px;
+    width: 20%;
+    
+    
 }
 
 .edit-button {
     background-color: blue;
+    border-radius: 6px;
+    width: 20%;
 }
-
 /* Mobile responsiveness */
 @media (max-width: 768px) {
     body {
         padding: 0 5px;
+       
     }
 
     input[type="text"] {
         width: 100%;
         max-width: none;
+    
+        
+    
     }
 
     li {
@@ -97,4 +115,12 @@ button {
    padding: 10px;
    background-color: #9abcef;
    border-radius: 5px;
+    
+}
+.todo-list{
+    border: 5px solid;
+    border-bottom: 0px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border-color: #5d73d3;
 }
