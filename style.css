@@ -3,6 +3,8 @@ body {
     text-align: center;
     padding: 0 10px;
     margin: 0;
+    background-image: url(/images/bg.jpg);
+    background-size: cover;
 }
 
 h1 {
