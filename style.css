@@ -3,7 +3,6 @@ body {
     text-align: center;
     padding: 0 10px;
     margin: 0;
-    
 }
 
 h1 {
@@ -12,8 +11,6 @@ h1 {
 
 .todo-input {
     margin-bottom: 20px;
-
-    
 }
 
 input[type="text"] {
@@ -22,8 +19,6 @@ input[type="text"] {
     padding: 10px;
     margin: 5px 0;
     box-sizing: border-box;
-   
-    
 }
 
 ul {
@@ -36,15 +31,13 @@ li {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #f2f2f2;
-    
+    background-color: #f2f2f2;   
 }
 
 .todo-buttons {
     display:contents;
     padding-left: 20px;
-    /* justify-content: space-between; */
-    
+    /* justify-content: space-between; */   
 }
 
 button {
@@ -55,15 +48,12 @@ button {
     cursor: pointer;
     width: 48%;
     margin-top: 5px;
-    
 }
 
 .delete-button {
     background-color: red;
     border-radius: 6px;
     width: 20%;
-    
-    
 }
 
 .edit-button {
@@ -75,15 +65,11 @@ button {
 @media (max-width: 768px) {
     body {
         padding: 0 5px;
-       
     }
 
     input[type="text"] {
         width: 100%;
         max-width: none;
-    
-        
-    
     }
 
     li {
@@ -100,7 +86,6 @@ button {
         width: 100%;
         margin: 5px 0;
     }
-
 }
 .heading{
    font-family:"Times New Roman",'Times New Roman', Times, serif;
